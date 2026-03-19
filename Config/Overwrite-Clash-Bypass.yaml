@@ -666,12 +666,6 @@ proxy-groups:
     use:
       - provider
     interval: 300
-    tolerance: 50
-
-  - name: "🇰🇷 韩国节点"
-    type: url-test
-    url: https://www.gstatic.com/generate_204
-    filter: "(?i)(KR|Korea|KOR|首尔|韩|韓|🇰🇷)"
     use:
       - provider
     interval: 300
