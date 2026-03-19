@@ -162,7 +162,6 @@ proxy-groups:
 # 规则引擎（rules）
 # ========================
 rules:
-
   - RULE-SET,TEST_Domain,测速工具
   - RULE-SET,BLOCK_Domain,网站拦截
   - RULE-SET,ChatGPT_Domain,ChatGPT
