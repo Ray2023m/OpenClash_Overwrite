@@ -45,7 +45,19 @@ default2: &default2
   proxies:
     - 直连
     - 拒绝
-
+default3: &default3
+  type: select
+  proxies:
+    - 香港节点
+    - 美国节点
+    - 台湾节点
+    - 日本节点
+    - 狮城节点
+    - 韩国节点
+    - 英国节点
+    - 其他节点
+    - 自动选择
+    - 直连
 
 proxy-groups:
 
@@ -61,10 +73,10 @@ proxy-groups:
   - {name: Netflix, <<: *default}
   - {name: HBO影视, <<: *default}
   - {name: Spotify, <<: *default}
-  - {name: 苹果服务, <<: *default}
-  - {name: 微软服务, <<: *default}
+  - {name: 苹果服务, <<: *default3}
+  - {name: 微软服务, <<: *default3}
   - {name: 谷歌服务, <<: *default}
-  - {name: 游戏平台, <<: *default}
+  - {name: 游戏平台, <<: *default3}
   - {name: 测速工具, <<: *default}
   - {name: 网站拦截, <<: *default2}
   - {name: 国外媒体, <<: *default}
