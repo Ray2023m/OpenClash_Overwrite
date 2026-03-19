@@ -73,9 +73,10 @@ proxy-groups:
 
   - name: 手选选择
     type: select
-    include-all: true
     filter: "^((?!(直连|拒绝)).)*$"
-
+    use:
+      - provider
+      
   - name: 自动选择
     type: url-test
     filter: "^((?!(直连|拒绝)).)*$"
