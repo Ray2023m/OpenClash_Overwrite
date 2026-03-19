@@ -77,7 +77,7 @@ proxy-groups:
   - {name: 微软服务, <<: *default3}
   - {name: 谷歌服务, <<: *default}
   - {name: 游戏平台, <<: *default3}
-  - {name: 测速工具, <<: *default}
+  - {name: 测速工具, <<: *default3}
   - {name: 网站拦截, <<: *default2}
   - {name: 国外媒体, <<: *default}
   - {name: 国内直连, <<: *default2}
