@@ -77,7 +77,7 @@ proxy-groups:
   - {name: 微软服务, <<: *default3}
   - {name: 谷歌服务, <<: *default}
   - {name: 游戏平台, <<: *default3}
-  - {name: 测速工具, <<: *default3}
+  - {name: 测试工具, <<: *default}
   - {name: 网站拦截, <<: *default2}
   - {name: 国外媒体, <<: *default}
   - {name: 国内直连, <<: *default2}
@@ -174,7 +174,7 @@ proxy-groups:
 # 规则引擎（rules）
 # ========================
 rules:
-  - RULE-SET,TEST_Domain,测速工具
+  - RULE-SET,TEST_Domain,测试工具
   - RULE-SET,BLOCK_Domain,网站拦截
   - RULE-SET,ChatGPT_Domain,ChatGPT
   - RULE-SET,Claude_Domain,Claude
