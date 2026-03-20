@@ -70,7 +70,7 @@
 #### 🔹 主路由用户 - Smart-LGBM
 
 ```bash
-https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-smart-LGBM.conf
+https://raw.githubusercontent.com/Ray2023m/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-smart-LGBM.conf
 ```
 
 
@@ -78,7 +78,7 @@ https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main
 #### 🔹 旁路由用户 - Smart-LGBM
 
 ```bash
-https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-smart-bypass-LGBM.conf
+https://raw.githubusercontent.com/Ray2023m/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-smart-bypass-LGBM.conf
 ```
 
 
